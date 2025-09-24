@@ -9,7 +9,9 @@ public class AddressBook {
     public void addBuddy(BuddyInfo buddy) {
         this.Buddy_collection.add(buddy);
     }
-
+    public void Test(){
+        System.out.println("Test");
+    }
     public void removeBuddy(BuddyInfo buddy) {
         this.Buddy_collection.remove(buddy);
     }
@@ -19,7 +21,7 @@ public class AddressBook {
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
         addressBook.removeBuddy(buddy);
-        System.out.println("Test");
+        addressBook.Test();
     }
 }
 
